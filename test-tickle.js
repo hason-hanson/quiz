@@ -6,7 +6,7 @@ document.getElementById("button1").addEventListener("click", function() {
     let a1 = document.getElementById("q1").value;
     let msg;
 
-    if (a1.toLowerCase() === "ryan" || a1.toLowerCase() === "ryan xu" || a1.toLowerCase() === "ryan shoe" || a1.toLowerCase() === "ryan shroom" || a1.toLowerCase() === "whyofthenot1") {
+    if (a1.toLowerCase() === "ryan" || a1.toLowerCase() === "ryan xu" || a1.toLowerCase() === "ryan shoe" || a1.toLowerCase() === "ryan shroom" || a1.toLowerCase() === "whyofthenot1" || a1.toLowerCase() === "popococomeep") {
         msg = `YES! The answer is ${a1}.`;
         score++;
     } else {
@@ -70,7 +70,7 @@ document.getElementById("button5").addEventListener("click", function() {
     let a = document.getElementById("q5").value;
     let msg;
 
-    if (a.toLowerCase() === "matthew" || a.toLowerCase() === "matthew schulz" || a.toLowerCase() === "potatomanonmars" || a.toLowerCase() === "filmoregas") {
+    if (a.toLowerCase() === "matthew" || a.toLowerCase() === "matthew schulz" || a.toLowerCase() === "potatomanonmars" || a.toLowerCase() === "filmoregas" || a.toLowerCase() === "matty t" || a.toLowerCase() === "mattyt") {
         msg = "YES! The answer is Matthew.";
         score++;
     } else {
